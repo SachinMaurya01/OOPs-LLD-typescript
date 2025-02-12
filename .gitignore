@@ -1,3 +1,10 @@
 ./node_modules
 ./MAPS/node_modules
 ./fetchjson/node_modules
+./absract-factory-pattern/node_modules
+./factory-pattern/node_modules
+./strategy-pattern/node_modules
+./stats/node_modules
+./sort/node_modules
+./MAPS/node_modules
+./annotations/node_modules
