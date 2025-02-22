@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+  },
+  "include": ["*.ts", "test/parser.spec.ts"]
+}

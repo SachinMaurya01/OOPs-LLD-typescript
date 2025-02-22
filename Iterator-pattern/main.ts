@@ -1,5 +1,5 @@
 import { Book } from "./Book";
-import { BookIterator } from "./BookIterator";
+import { Library } from "./Library";
 
 
 class IteratorPattern {
@@ -8,7 +8,8 @@ class IteratorPattern {
     const Book2 = new Book('Book2', 200);
     const Book3 = new Book('Book3', 300);
     const bookList = [Book1, Book2, Book3];
-    const bookIterator = new BookIterator(bookList);
+    const library = new Library(bookList);
+    const bookIterator = library.createIterator();
     while (bookIterator.hasNext()) {
       const book = bookIterator.next();
       console.log(book?.toString());
