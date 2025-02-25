@@ -20,6 +20,7 @@ class MementoPattern {
     originator.restore(caretaker.undo());
     console.log(originator.getState());
 
+    // can be done like this but SRP and encapsulation is broken
     let memento = new Memento(new State('state4', 4));
     caretaker.addMemento(memento);
     let memento2 = new Memento(new State('state3', 2));
